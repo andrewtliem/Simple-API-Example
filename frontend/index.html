@@ -3,44 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>City Search</title>
+    <title>Search</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>City Search</h1>
-            <p>Search for cities around the world</p>
-        </header>
-        
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="Enter city name...">
-            <button id="search-button">Search</button>
-        </div>
-        
-        <div class="results-container">
-            <div id="results-list"></div>
-            <div id="city-details" class="hidden">
-                <button id="back-button">← Back to results</button>
-                <div id="detail-content"></div>
-            </div>
-        </div>
-        
-        <div id="loading" class="hidden">
-            <div class="spinner"></div>
-            <p>Loading...</p>
-        </div>
-        
-        <div id="error-message" class="hidden">
-            <p>An error occurred. Please try again.</p>
-        </div>
+    <div class="search-container">
+        <h1>Search</h1>
+        <input type="text" id="search-input" placeholder="Search for cities or countries...">
+        <button id="search-button">Search</button>
     </div>
-    
-    <footer>
-        <p>Simple City Search API Example</p>
-    </footer>
-    
+    <div id="results"></div>
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
