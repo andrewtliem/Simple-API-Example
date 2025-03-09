@@ -62,3 +62,10 @@ Simply open `frontend/index.html` in your web browser.
 ## License
 
 MIT
+
+## File Descriptions
+
+- **`cities.json`**: Contains sample city data used to populate the database initially.
+- **`database.py`**: Manages database connections and operations, including data retrieval for cities and countries.
+- **`cities.db`**: SQLite database file storing city and country data.
+- **`app.py`**: Flask application that serves the API endpoints for searching cities and countries.
